@@ -6,7 +6,6 @@
 import scrapy
 
 
-class SalesscrapperItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class DeliveryItem(scrapy.Item):
+    product_name = scrapy.Field()
+    product_company = scrapy.Field()
